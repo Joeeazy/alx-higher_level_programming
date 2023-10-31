@@ -1,5 +1,13 @@
 #!/usr/bin/python3
+"""
+    This module contains a class `LockedClass` that limits
+    the dynamic creation of attributes at runtime
+"""
+
+
 class LockedClass:
-    """A locked class that only lets the user dynamically create the instance
-    attribute 'first_name'"""
-    __slots__ = ['first_name']
+    """
+        Empty class that limits the dynamic creation of
+        attribute to `first_name`
+    """
+    __slots__ = "first_name"
