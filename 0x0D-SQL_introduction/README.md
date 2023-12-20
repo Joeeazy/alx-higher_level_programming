@@ -52,10 +52,29 @@
         INSERT INTO table_name (column1, column2, ...)
         VALUES (value1, value2, ...);
     ```
+    * To update data
+    ```bash
+        UPDATE table_name
+        SET column1 = value1, column2 = value2, ...
+        WHERE condition;
+    ```
+    * To Delete data
+    ```bash
+        DELETE FROM table_name
+        WHERE condition;
+    ```
 
  * What are subqueries
 
+    Subqueries are queries embedded within other queries. They can be used to retrieve data that will be used in the main query's condition or to perform operations based on the results of another query.
+
  * How to use MySQL functions
+    
+    MySQL provides various built-in functions for data manipulation, mathematical operations, string manipulation, and more. For example:
+    ```bash
+    SELECT AVG(column_name) FROM table_name;
+    ```
+    This calculates the average of the values in the specified column. There are many other functions for different purposes in MySQL.
 
  # More Info
 
