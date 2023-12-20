@@ -1,29 +1,57 @@
 # General
  
  * What’s a database
+    
     A database is a structured collection of data that is organized and stored in a way that allows for efficient retrieval and manipulation. It can be as simple as a single file or a complex system with mu    ltiple tables linked together.
 
  * What’s a relational database
+    
     A relational database is a type of database that organizes data into tables, where relationships between the data are established based on common fields. It uses a relational model to represent these re    lationships, making it easier to query and maintain the data.
 
  * What does SQL stand for
+    
     SQL stands for Structured Query Language. It is a standard programming language used for managing and manipulating relational databases.
 
  * What’s MySQL
+    
     MySQL is an open-source relational database management system (RDBMS) that uses SQL. It is widely used for building web applications and is known for its reliability and ease of use.
 
  * How to create a database in MySQL
+    
     ```bash
     CREATE DATABASE database_name;
     ```
 
  * What does DDL and DML stand for
+    DDL stands for Data Definition Language, which is used for defining and managing database structures (e.g., creating tables or modifying schema).
+
+    DML stands for Data Manipulation Language, which is used for manipulating data stored in the database (e.g., inserting, updating, or deleting records).
 
  * How to CREATE or ALTER a table
-
+    
+    ```bash
+    CREATE TABLE table_name (
+        column1 datatype,
+        column2 datatype,
+        ...
+        );
+    ```
  * How to SELECT data from a table
 
+   ```bash
+    SELECT column1, column2, ...
+    FROM table_name
+    WHERE condition;
+   ```
+
+
  * How to INSERT, UPDATE or DELETE data
+    
+    * To Insert data
+    ```bash
+        INSERT INTO table_name (column1, column2, ...)
+        VALUES (value1, value2, ...);
+    ```
 
  * What are subqueries
 
