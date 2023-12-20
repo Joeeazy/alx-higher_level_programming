@@ -1,8 +1,10 @@
 # General
  
  * What’s a database
+    A database is a structured collection of data that is organized and stored in a way that allows for efficient retrieval and manipulation. It can be as simple as a single file or a complex system with mu    ltiple tables linked together.
 
  * What’s a relational database
+    A relational database is a type of database that organizes data into tables, where relationships between the data are established based on common fields. It uses a relational model to represent these re    lationships, making it easier to query and maintain the data.
 
  * What does SQL stand for
 
