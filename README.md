@@ -27,3 +27,5 @@ python language implementation
 [0x0B-python-input_output](https://github.com/Joeeazy/alx-higher_level_programming/tree/master/0x0B-python-input_output)
 
 [0x0C-python-almost_a_circle](https://github.com/Joeeazy/alx-higher_level_programming/tree/master/0x0C-python-almost_a_circle)
+
+[0x0D-SQL_introduction](https://github.com/Joeeazy/alx-higher_level_programming/tree/master/0x0D-SQL_introduction)
