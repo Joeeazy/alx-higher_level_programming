@@ -21,3 +21,7 @@ python language implementation
 [0x08-python-more_classes](https://github.com/Joeeazy/alx-higher_level_programming/tree/master/0x08-python-more_classes)
 
 [0x09-python-everything_is_object](https://github.com/Joeeazy/alx-higher_level_programming/tree/master/0x09-python-everything_is_object)
+
+[0x0A-python-inheritance](https://github.com/Joeeazy/alx-higher_level_programming/tree/master/0x0A-python-inheritance)
+
+
