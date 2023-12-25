@@ -10,4 +10,6 @@ python language implementation
 
 [0x03-python-data_structures](https://github.com/Joeeazy/alx-higher_level_programming/tree/master/0x03-python-data_structures)
 
-[0x04-python-more_data_structures](
+[0x04-python-more_data_structures](https://github.com/Joeeazy/alx-higher_level_programming/tree/master/0x04-python-more_data_structures)
+
+[0x05-python-exceptions](
