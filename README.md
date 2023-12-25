@@ -30,4 +30,4 @@ python language implementation
 
 [0x0D-SQL_introduction](https://github.com/Joeeazy/alx-higher_level_programming/tree/master/0x0D-SQL_introduction)
 
-[0x0E-SQL_more_queries]
+[0x0E-SQL_more_queries](https://github.com/Joeeazy/alx-higher_level_programming/tree/master/0x0E-SQL_more_queries)
