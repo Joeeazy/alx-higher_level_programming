@@ -12,11 +12,11 @@
 
 * How to make HTTP GET request using the Python package requests #requestsiswaysimplerthanurllib
 
-	requests: The requests library is a popular alternative to urllib for making HTTP requests. To make an HTTP GET request using requests, you can use requests.get(url). The response object's .text attribute gives you the content as a string.
+	The requests library is a popular alternative to urllib for making HTTP requests. To make an HTTP GET request using requests, you can use requests.get(url). The response object's .text attribute gives you the content as a string.
 
 * How to make HTTP POST/PUT/etc. request
 
-	requests: requests simplifies making various types of HTTP requests. For example, requests.post(url, data=data) sends an HTTP POST request with the specified data. You can use other methods like requests.put(), requests.delete(), etc., for different HTTP methods.
+	requests simplifies making various types of HTTP requests. For example, requests.post(url, data=data) sends an HTTP POST request with the specified data. You can use other methods like requests.put(), requests.delete(), etc., for different HTTP methods.
 
 * How to fetch JSON resources
 
