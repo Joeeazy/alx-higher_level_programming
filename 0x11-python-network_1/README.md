@@ -10,9 +10,7 @@
 
 	After making a request with urllib, the response body is in bytes. To interpret it as text, you use the decode('utf-8') method, assuming the content is UTF-8 encoded.
 
-How to use the Python package requests #requestsiswaysimplerthanurllib
-
-* How to make HTTP GET request
+* How to make HTTP GET request using the Python package requests #requestsiswaysimplerthanurllib
 
 	requests: The requests library is a popular alternative to urllib for making HTTP requests. To make an HTTP GET request using requests, you can use requests.get(url). The response object's .text attribute gives you the content as a string.
 
