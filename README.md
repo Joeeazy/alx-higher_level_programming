@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 High-level programming
+=======
+ High-level programming
+>>>>>>> 5ff11ee3d5cbc25dcdd807cbe9f7740f2ba8b8c4
 
 python language implementation
 
