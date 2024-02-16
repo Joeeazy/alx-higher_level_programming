@@ -40,26 +40,26 @@
 
     break is used to exit a loop prematurely, while continue is used to skip the current iteration and continue to the next iteration of the loop.    
 
-What is a function and how do you use functions
+* What is a function and how do you use functions
 
      Functions are blocks of reusable code. They can take input parameters and return values.
 
-What does a function that does not use any return statement return
+* What does a function that does not use any return statement return
 
     A function without a return statement implicitly returns undefined.
 
-Scope of variables
+* Scope of variables
 
     Scope defines the accessibility of variables. JavaScript has function scope and block scope.
 
-What are the arithmetic operators and how to use them
+* What are the arithmetic operators and how to use them
 
     Arithmetic operators perform arithmetic operations on numbers. These include addition (+), subtraction (-), multiplication (*), division (/), modulus (%), increment (++), and decrement (--).
 
-How to manipulate dictionary
+* How to manipulate dictionary
 
     JavaScript does not have dictionaries, but it has objects which can be used similarly. Objects are collections of key-value pairs.
 
-How to import a file
+* How to import a file
 
     In Node.js, you can use require() to import files. In the browser, you can use module systems like CommonJS or ES modules.
