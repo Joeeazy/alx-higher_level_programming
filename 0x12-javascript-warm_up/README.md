@@ -14,19 +14,31 @@ How to create variables and constants
 
 What are differences between var, const and let
 
-    
+    var is function-scoped, let is block-scoped, and const also creates block-scoped variables but cannot be reassigned.
 
 What are all the data types available in JavaScript
 
+    JavaScript has several data types including primitive types like strings, numbers, booleans, null, undefined, and symbols, as well as non-primitive types like objects and functions.
+
 How to use the if, if ... else statements
+
+    These are conditional statements used for decision making in code execution. if checks a condition, and if it's true, executes a block of code. else is used for executing code when the if condition is false.
 
 How to use comments
 
+    Comments in JavaScript are used to explain code and make it more readable. They are ignored by the JavaScript engine. Single-line comments start with //, and multi-line comments are wrapped between /* and */.
+
 How to affect values to variables
+
+    Values are assigned to variables using the assignment operator =.
 
 How to use while and for loops
 
+    while loops execute a block of code repeatedly while a specified condition is true. for loops execute a block of code a specified number of times.
+
 How to use break and continue statements
+
+    
 
 What is a function and how do you use functions
 
