@@ -90,9 +90,9 @@ How to select HTML elements with JQuery
     ```
 * How to listen/bind to DOM events
 
-    ```
     In JavaScript, you can use addEventListener to bind event listeners to DOM elements. In JQuery, you can use the on() method. Example:
 
+    ```
     // JavaScript
     document.getElementById('myButton').addEventListener('click', function() {
         // Handle click event
