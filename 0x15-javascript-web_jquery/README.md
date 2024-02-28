@@ -45,12 +45,61 @@ How to select HTML elements with JQuery
 
     ```
 
-How to get and update an HTML element content
+* How to get and update an HTML element content
 
-How to modify the DOM
+    You can get an element's content using the innerHTML property in JavaScript and the html() method in JQuery. To update content, you can assign a new value to innerHTML in JavaScript or use the html() method in JQuery.
 
-How to make a GET request with JQuery Ajax
+* How to modify the DOM
 
-How to make a POST request with JQuery Ajax
+    JavaScript provides methods like appendChild, removeChild, createElement, etc., for modifying the DOM. JQuery simplifies these operations with methods like append(), remove(), before(), after(), etc.
 
-How to listen/bind to DOM events
+* How to make a GET request with JQuery Ajax
+
+    You can use JQuery's $.ajax() method to make GET requests. Example:
+
+    ```
+    $.ajax({
+        url: 'example.com/api/data',
+        method: 'GET',
+        success: function(response) {
+            // Handle success
+        },
+        error: function(xhr, status, error) {
+            // Handle error
+        }
+    });
+    ```
+    
+* How to make a POST request with JQuery Ajax
+
+    Similar to GET requests, but specify the method as 'POST' and include data in the data property:
+    
+    ```
+    $.ajax({
+        url: 'example.com/api/data',
+        method: 'POST',
+        data: { key: 'value' },
+        success: function(response) {
+            // Handle success
+        },
+        error: function(xhr, status, error) {
+            // Handle error
+        }
+    });
+
+    ```
+* How to listen/bind to DOM events
+
+    ```
+    In JavaScript, you can use addEventListener to bind event listeners to DOM elements. In JQuery, you can use the on() method. Example:
+
+    // JavaScript
+    document.getElementById('myButton').addEventListener('click', function() {
+        // Handle click event
+    });
+
+    // JQuery
+    $('#myButton').on('click', function() {
+        // Handle click event
+    });
+    ```
